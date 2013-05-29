@@ -18,8 +18,9 @@ GIT
       heroku-api
       rendezvous
 
-PATH
-  remote: ../learnery-theme
+GIT
+  remote: https://github.com/learnery/learnery-theme-webdev.git
+  revision: 78a57873ff11ca58833689cc97db23e440d446ad
   specs:
     learnery-theme (0.0.1)
 
