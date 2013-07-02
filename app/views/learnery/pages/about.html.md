@@ -1,21 +1,25 @@
 ## Learnery
 
-Learnery is a rails app you can use to organize open learning events, 
+Learnery is a rails engine you can use 
+in your rails app to organize open learning events, 
 like railsbridge, barcamps, user groups, meetups, hackathons. 
 
-You can adapt the theme to your liking 
-and deploy the app to heroku in a few simple steps.
+You can easily deploy the app to heroku in a few simple steps.
 
 ### This Site
 
-Look at the URL of this site: http://learnery-staging.herokuapp.com/ is it the official demo
-site of Learnery.
+Look at the URL of this site: 
+http://learnery-staging-webdev.herokuapp.com/
+is it the official demo site of the
+learnery-webdev (this app) using the learnery-engine.
 
 Do you see a differnt URL?  Then this is some 
-installation of learnery, with the default theme
-and the default static pages that come with it.
+other installation based on the same code,
+showing the default static pages that come with it.
 
 ### Try it now
 
-You can downlod Learnery from https://github.com/learnery/learnery
+You can downlod this app (with all the pretty colors)
+from https://github.com/learnery/learnery-webdev.
+It uses the learnery engine https://github.com/learnery/learnery.
 
