@@ -10,7 +10,7 @@ You can easily deploy the app to heroku in a few simple steps.
 
 Look at the URL of this site: 
 http://learnery-staging-webdev.herokuapp.com/
-is it the official demo site of the
+is the official demo site of 
 learnery-webdev (this app) using the learnery-engine.
 
 Do you see a differnt URL?  Then this is some 
