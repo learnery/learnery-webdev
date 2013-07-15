@@ -26,7 +26,7 @@ GIT
 
 GIT
   remote: git://github.com/learnery/learnery.git
-  revision: 3c79de0d565fea25e1c8a5161338c0dd87fa35c9
+  revision: 2cba7de2bf7f17fd2d718e0cb3e4b43fcde6f685
   specs:
     learnery (0.0.1)
       capybara
@@ -262,10 +262,10 @@ GEM
       rails (>= 3.1)
       railties (>= 3.1)
     tzinfo (0.3.37)
-    uglifier (2.1.1)
+    uglifier (2.1.2)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
-    warden (1.2.2)
+    warden (1.2.3)
       rack (>= 1.0)
     xpath (2.0.0)
       nokogiri (~> 1.3)
