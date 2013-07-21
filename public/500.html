@@ -53,5 +53,12 @@
     <h1>We're sorry, but something went wrong.</h1>
   </div>
   <p>If you are the application owner check the logs for more information.</p>
+  <p>Maybe <a id="delete_session" href="/">deleting the session cookie</a> might help?</p>
+
+  <script>
+    document.getElementById('delete_session').addEventListener('click', function(){
+       document.cookie = "_learnery-default_session=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    });
+  </script>
 </body>
 </html>
