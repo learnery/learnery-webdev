@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/drblinken/heroku-headless.git
-  revision: c55d729fe51691dd5f7beae1b1b02a97e5dcafe7
-  specs:
-    heroku-headless (0.2.0)
-      heroku-api
-      rendezvous
-
-GIT
   remote: git://github.com/heroku/rails3_serve_static_assets.git
   revision: 84910ceb4ca2851d650e66d3b22f5008acf253f8
   specs:
@@ -131,6 +123,9 @@ GEM
     hashie (2.0.5)
     heroku-api (0.3.14)
       excon (~> 0.25.1)
+    heroku-headless (0.2.1)
+      heroku-api
+      rendezvous
     hike (1.2.3)
     http_parser.rb (0.5.3)
     httpauth (0.2.0)
@@ -281,7 +276,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   database_cleaner
   factory_girl_rails
-  heroku-headless!
+  heroku-headless (>= 0.2.1)
   jbuilder (~> 1.2)
   jquery-rails
   launchy
